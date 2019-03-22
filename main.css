@@ -1,0 +1,39 @@
+body {
+    background-color: skyblue;
+    color: navy;    
+}
+
+.heading {
+    padding: 10px 10px 0px 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: navy;
+    background-color: white;
+    box-shadow: 0 5px 5px gray;
+}
+
+div h2 {
+    float: left;
+    margin-bottom: 0px;
+}
+nav {
+    text-align: right;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 1em 1em 0 1em;
+}
+
+nav ul li:hover {
+    transform: scale(1.5);
+}
+
+nav ul {
+    margin: 1em 1em 0 1em;
+}
+
+nav ul li a:hover {
+    color: green;
+}

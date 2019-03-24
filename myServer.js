@@ -10,6 +10,8 @@ server.get('/cavan', myRoutes.cavan);
 
 server.get('/fighters', myRoutes.fighters);
 
+server.get('/:contents/:vessel', myRoutes.whatsInTheVessel);
+
 server.listen(port, () => {
   console.log('The server is listening on port', port)
 })

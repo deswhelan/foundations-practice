@@ -1,6 +1,7 @@
 module.exports = {
     myIndex: myIndex,
-    cavan: cavan
+    cavan: cavan,
+    fighters: fighters
 }
 
 function myIndex (req, res) {
@@ -9,4 +10,18 @@ function myIndex (req, res) {
 
 function cavan (req, res) {
     res.sendFile(__dirname+'/simey.html')
+}
+
+function fighters (req, res) {
+    var fighterName = req.query.fighter;
+
+    var listOfFighters = {
+        simey: 'simey',
+        joe: 'joe',
+        bigJoe: 'big-joe'
+    }
+
+    var pageName = listOfFighters[fighterName];
+
+    res.sendFile(__dirname +'/' + pageName + '.html')
 }

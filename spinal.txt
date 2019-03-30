@@ -1,0 +1,6 @@
+{
+  "id": 3,
+  "name": "Tony Ferguson",
+  "style": "Ninja",
+  "image": "/images/ferguson.jpg"
+}

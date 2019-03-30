@@ -1,0 +1,22 @@
+{
+    "fighters": [
+        {
+            "id": 1,
+            "name": "Conor McGregor",
+            "style": "Boxer",
+            "image": "/images/conor.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Khabib Nurmagomedov",
+            "style": "Wrestler",
+            "image": "/images/khabib.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Tony Ferguson",
+            "style": "Ninja",
+            "image": "/images/ferguson.jpg"
+        }
+    ]
+}

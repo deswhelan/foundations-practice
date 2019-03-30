@@ -3,16 +3,18 @@
   "version": "1.0.0",
   "main": "practice.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node myServer.js --colors"
+    "test": "jest --colors --watchAll",
+    "start": "nodemon myServer.js --colors --watchAll"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "colors": "^1.3.3",
     "express": "^4.16.4",
-    "jest": "^24.5.0"
+    "jest": "^24.5.0",
+    "supertest": "^4.0.2"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"

@@ -1,10 +1,3 @@
-module.exports = {
-    myIndex: myIndex,
-    cavan: cavan,
-    fighters: fighters,
-    whatsInTheVessel: whatsInTheVessel
-}
-
 function myIndex (req, res) {
     res.send('<p>Hello Simey it\'s me again Simey. I\'m your worst nightmare</p>')
 }
@@ -29,4 +22,11 @@ function fighters (req, res) {
 
 function whatsInTheVessel (req, res) {
     res.sendFile(__dirname + '/' + req.params.contents + '-in-the-' + req.params.vessel + '.html')
+}
+
+module.exports = {
+    myIndex: myIndex,
+    cavan: cavan,
+    fighters: fighters,
+    whatsInTheVessel: whatsInTheVessel
 }

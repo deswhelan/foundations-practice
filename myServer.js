@@ -15,3 +15,5 @@ server.get('/:contents/:vessel', myRoutes.whatsInTheVessel);
 server.listen(port, () => {
   console.log('The server is listening on port', port)
 })
+
+module.exports = server

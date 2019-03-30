@@ -1,4 +1,4 @@
-var fs = require('fs')
+const fs = require('fs')
 
 function makeSandwichWith(filling) {
     
@@ -20,8 +20,6 @@ function displayText (err, data) {
 
 const data = require('./fighters.json')
 const fighterWeWantToWrite =  JSON.stringify(data["fighters"][2], null, 2)
-// console.log("Fighters: \n", data)
-// console.log(data["fighters"][1])
 
 fs.writeFile('spinal.txt', fighterWeWantToWrite, (err) => {
     if (err) {

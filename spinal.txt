@@ -1,1 +1,6 @@
-"I broke my back. My back is broken. Spinal" - Mike Tyson
+{
+  "id": 3,
+  "name": "Tony Ferguson",
+  "style": "Ninja",
+  "image": "/images/ferguson.jpg"
+}

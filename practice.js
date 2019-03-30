@@ -17,3 +17,14 @@ function displayText (err, data) {
         console.log(data)
     }
 }
+
+const data = require('./fighters.json')
+const fighterWeWantToWrite =  JSON.stringify(data["fighters"][2], null, 2)
+// console.log("Fighters: \n", data)
+// console.log(data["fighters"][1])
+
+fs.writeFile('spinal.txt', fighterWeWantToWrite, (err) => {
+    if (err) {
+        console.log(err)
+    }
+})
